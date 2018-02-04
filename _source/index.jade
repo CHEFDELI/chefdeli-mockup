@@ -1,2 +1,18 @@
-h1 Welcome to Harp.
-h3 This is yours to own. Enjoy.
+header.shadow
+  div.logo-wrapper
+    img(src="./images/chefdeli-logo.svg")
+  div.search-wrapper
+    i search
+    input(placeholder="シェフ・お店の名前")
+  ul
+    a(href="#"): li Home
+    a(href="#"): li Explore
+    a(href="#"): li.dropdown.more More
+    
+  div.menu
+    p Profile
+    p Chef
+    hr
+    p.logon-status.logged-out
+    
+script(src="./main.js")

@@ -1,0 +1,21 @@
+i{
+  font-style: normal;
+  font-family: 'Material Icons';
+}
+
+.dropdown{
+  &:after{
+    display: inline-block;
+    vertical-align: top;
+    content: "arrow_drop_down";
+    font-family: 'Material Icons';
+  }
+}
+
+.shadow{
+  box-shadow: 0px 0px 3px #757575;
+}
+
+.visible{
+  display: block !important;
+}
