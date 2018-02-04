@@ -12,4 +12,4 @@ harp server _source
 
 Dependencies
 
-- [Harp](harpjs.com)
+- [Harp](http://harpjs.com)
